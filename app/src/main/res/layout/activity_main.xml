@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76FF"
+    tools:context="com.example.hp.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/wallpaper"
+        android:layout_below="@id/homebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:src="@drawable/udacitywallpaper1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/homebutton"
+        android:text="Learn.Think.Do"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:background="#000"
+        android:textColor="#1E88E5"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+    <ImageButton
+        android:id="@+id/homebutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:background="#000"
+        android:src="@drawable/udacitymainlogo" />
+    <Button
+        android:id="@+id/coursebutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wallpaper"
+        android:layout_toRightOf="@id/scholarshipbutton"
+        android:text="COURSES"
+        android:layout_margin="5dp"
+       />
+    <Button
+        android:id="@+id/scholarshipbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wallpaper"
+
+        android:layout_centerInParent="true"
+        android:text="SCHOLARSHIPS"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/gethiredbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wallpaper"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/scholarshipbutton"
+        android:text="GET HIRED" />
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us :"
+        android:layout_below="@id/coursebutton"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:id="@+id/udatext"
+        android:layout_below="@id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>/>
+    <ImageView
+
+        android:id="@+id/locic"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/udatext"
+        android:layout_marginLeft="10dp"
+
+        android:src="@drawable/locationicon"/>
+    <TextView
+        android:id="@+id/add1"
+        android:layout_below="@id/udatext"
+        android:layout_toRightOf="@id/locic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2465 Latham St"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="0dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>/>
+
+    <TextView
+        android:id="@+id/add2"
+        android:layout_below="@id/add1"
+        android:layout_toRightOf="@id/locic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain View, CA 94043"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>/>
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/call"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/add2"/>
+    <TextView
+        android:id="@+id/contactno"
+        android:layout_toRightOf="@id/call"
+        android:layout_below="@id/add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="650-555-5555"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+
+
+
+</RelativeLayout>

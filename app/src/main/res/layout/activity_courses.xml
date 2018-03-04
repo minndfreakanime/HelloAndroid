@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.helloandroid.courses"
+    android:background="#76ff">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+
+        android:id="@+id/courhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:fontFamily="monospace"
+        android:textSize="50dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_below="@id/courhead"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Android Developer"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Artificial Intelligence"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Front-end developer"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="business analyst"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="self driving car engine"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="deep learning"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="machine learning"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="data analyst"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="react"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="data foundation"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@id/l1"
+        android:layout_below="@id/courhead"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Android Basics"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="iOS Developer"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Mobile web specialist"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Full stack developer"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Robotics software engineer"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="intro to programming"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="vr developer"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="digital marketing"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
